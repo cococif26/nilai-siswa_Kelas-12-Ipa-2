@@ -1,0 +1,93 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+/* form */
+form {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],  /* digunakan untuk elemen input yang bertipe teks, ini buat nama */
+input[type="number"],  /* digunakan untuk elemen input yang bertipe number/angka, ini buat nis */
+select {   /* elemen select yang digunakan buat dropdown menu dlm form */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #d67b75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #ff928b;
+}
+
+button[onclick] {
+    background-color: #f44336;
+}
+
+button[onclick]:hover {
+    background-color: #e53935;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #d67b75;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}

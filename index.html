@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Data Siswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Input Data Siswa Kelas XI IPA 2</h1>
+    <form method="POST" action="proses_siswa.php">
+      <label>Nama Siswa :</label>
+      <input type="text" name="nama" required /><br />
+      <label>NIS :</label>
+      <input type="text" name="nis" required /><br />
+      <label>Jenis Kelamin :</label>
+      <select name="jenis_kelamin" required>
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option></select
+      ><br />
+      <button type="submit">Simpan</button>
+    </form>
+  </body>
+</html>
